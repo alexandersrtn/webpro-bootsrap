@@ -7,14 +7,7 @@ html {
     font-family: verdana;
 }
 
-header {
-    background-color: #B17457;
-    color: white;
-    font-size: 20px;
-    padding-left: 10px;
-    position: fixed;
-    width:100%
-}
+
 
 .header {
     height: 15%;
@@ -45,19 +38,6 @@ main {
     align-items: center;
 }
 
-footer {
-    height: 10%;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    border: none;
-    background-color: #4A4947;
-    color: white;
-    font-size: 16px;
-    font-family: verdana;
-    padding-left: 10px;
-}
 
 iframe {
     border: none;
@@ -87,50 +67,26 @@ td a {
     padding: 0;
 }
 
-#menu_nav a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    background-color: #d5c59f;
-    padding: 15px;
-    transition: background-color 0.3s;
-}
-
-#menu_nav tr:hover a {
-    background-color: #7B5132;
-}
-
-#menu_nav tr:active a,
-#menu_nav tr:focus-within a {
-    background-color: #7B5132;
-    font-weight: bold;
-}
 
 
 body.body-bg {
-    background-color: #A0937D;
+    background-color: #e5e8e8;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
 }
 
 h1.title {
-    color: cornsilk;
+    color: 22252b;
     font-size: 2em;
     text-align: center;
-    text-decoration: underline;
     font-weight: bold;
 }
 
-hr.separator {
-    border: none;
-    height: 10px;
-    background-color: #6C4E31;
-    margin: 20px 0;
-}
+
 
 .data-text {
-    color: ghostwhite;
+    color: #22252b;
     font-size: 1.1em;
     line-height: 1.6;
     text-align: left;
@@ -158,5 +114,5 @@ a.sosmed{
 
 h1.contact{
     font-size: large;
-    color: white;
+    color: 22252b;
 }
