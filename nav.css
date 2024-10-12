@@ -1,0 +1,50 @@
+nav {
+    height: 5rem;
+
+  }
+.navbar-nav {
+    margin-right: 20px;
+  }
+footer {
+    background-color: #22252B;
+    color: white;
+
+  }
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+  }
+body {
+    padding-bottom: 60px; /* To avoid content overlap with fixed footer */
+  }
+.navbar {
+    background-color: #22252B; /* Updated navbar background color */
+  }
+
+.body-anggota {
+    background-color: #E5e8eb;
+    padding: 20px;
+  }
+.container {
+    margin-top: 10px;
+  }
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+table {
+    background-color: #E5e8eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+#repo{
+    width:40px;
+
+}
+.mx-2:hover{
+    background-color:#E5e8eb ;
+    color: #22252B;
+    border-radius: 6px;
+}   

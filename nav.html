@@ -15,37 +15,23 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="nav.css">
     <style>
-      nav {
-        height: 5rem;
-      }
-      .navbar-nav {
-        margin-right: 20px;
-      }
-      footer {
-        background-color: #343a40;
-        color: white;
-        padding: 10px 0;
-      }
-      .footer-links a {
-        color: white;
-        margin: 0 10px;
-      }
       body {
-        padding-bottom: 60px; /* To avoid content overlap with fixed footer */
+        padding-top: 70px; /* Add padding to prevent content from overlapping with fixed navbar */
       }
     </style>
   </head>
   <body>
     <div>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
         <!-- Brand -->
-        <a class="navbar-brand" href="#">Kelompok 9</a>
+        <a class="navbar-brand" href="#">Kelompok 16</a>
 
         <!-- Links -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="loadPage('index.html')"
+            <a class="nav-link" href="#" onclick="loadPage('Deskripsi Tugas.html')"
               >Home</a
             >
           </li>
@@ -56,32 +42,43 @@
               id="navbardrop"
               data-toggle="dropdown"
             >
-              Materi
+              Biografi
             </a>
             <div class="dropdown-menu">
               <a
                 class="dropdown-item"
                 href="#"
-                onclick="loadPage('htmlMateri.html')"
-                >HTML</a
+                onclick="loadPage('alex.html')"
+                >alex</a
               >
               <a
                 class="dropdown-item"
                 href="#"
-                onclick="loadPage('cssMateri.html')"
-                >CSS</a
+                onclick="loadPage('oliver.html')"
+                >oliver</a
               >
               <a
                 class="dropdown-item"
                 href="#"
-                onclick="loadPage('jsMateri.html')"
-                >JavaScript</a
+                onclick="loadPage('ayman.html')"
+                >ayman</a
+              >
+              <a
+                class="dropdown-item"
+                href="#"
+                onclick="loadPage('monica.html')"
+                >monica</a
               >
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="loadPage('cAnggota.html')"
+            <a class="nav-link" href="#" onclick="loadPage('anggota.html')"
               >Anggota</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="loadPage('logo.html')"
+              >Institusi</a
             >
           </li>
         </ul>
@@ -91,7 +88,7 @@
     <div>
       <iframe
         id="contentFrame"
-        src="cHome.html"
+        src="Deskripsi Tugas.html"
         frameborder="0"
         width="100%"
         height="600"
@@ -101,17 +98,12 @@
     <!-- Footer -->
     <footer class="fixed-bottom text-center">
       <div class="container">
-        <p>Follow us on:</p>
+        <p>Source Code Repository:</p>
         <div class="footer-links">
-          <a href="https://www.instagram.com" target="_blank"
-            ><i class="fab fa-instagram"></i> Instagram</a
-          >
-          <a href="https://wa.me/yourwhatsappnumber" target="_blank"
-            ><i class="fab fa-whatsapp"></i> WhatsApp</a
-          >
-          <a href="https://mail.google.com/" class="mx-2">
-            <i class="fas fa-envelope"></i> Email
-          </a>
+          <img src="public/github-logo.png" id="repo">
+          <a href="https://github.com/alexandersrtn/webpro-bootsrap" class="mx-2">
+           Repository
+          </a>  
         </div>
       </div>
     </footer>
